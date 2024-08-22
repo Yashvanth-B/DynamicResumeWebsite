@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yashvanth Resume</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header id="side">
+      <nav id="namee">
+        <h1>Yashvanth B</h1>
+        <a href="mailto:yashvanth.babu05@gmail.com"> yashvanth.babu05@gmail.com</a>
+      </nav>
+      <ul id="list">
+        <li><a href="#home" onclick="callhome()" id="homeid"> Home </a></li>
+        <li><a href="#edu" onclick="callaca()" id="acaid"> Academics </a></li>
+        <li><a href="#skills" onclick="callskills()" id="skillid">Skills </a></li>
+        <li><a href="#project" onclick="callproject()" id="proid"> Projects & Achievements </a></li>
+        <li><a href="#about" onclick="callabout()" id="aboutid"> About </a></li>
+      </ul>
+      <input
+        type="button"
+        id="darkmode"
+        onclick="dark()"
+        ondblclick="offd()"
+        value="dark on"
+      />
+      <nav id="theme">
+        <h2 id="themeselect" onclick="themeon()">Themes</h2>
+        <br />
+        <nav
+          id="redbg"
+          class="hide"
+          onclick="redon()"
+          ondblclick="offcc()"
+        ></nav>
+        <nav
+          id="bluebg"
+          class="hide"
+          onclick="blueon()"
+          ondblclick="offcc()"
+        ></nav>
+        <nav
+          id="mixed"
+          class="hide"
+          onclick="mixedon()"
+          ondblclick="offcc()"
+        ></nav>
+      </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <main id="mainscreen">
+      <div id="home" class="m">
+        <div id="home1">
+          <h1>
+            Welcome, <br />This is <span id="yash">YASHVANTH B</span><br />A
+            Self Learner!
+          </h1>
+          <p>
+            A highly talented Civil Engineer, interested in the IT Industry. A
+            motivated self-learner gained knowledge on basic Web Technologies,
+            Python and having good Communication and Management Skills. Looking
+            forward to work as an IT specialist in an Information Technology
+            firm that acknowledges my technical and analytical skills and
+            concurrently aids my personal growth.
+          </p>
+        </div>
+        <img src="img/first.jpg" alt="profil" id="img1" />
+      </div>
+      <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+      <div id="edu" class="m">
+        <h1>ACADEMIC DETAILS</h1>
+        <div id="edubg">
+          <div id="edu_image">
+            <img src="img/second.png" id="img2" />
+          </div>
+          <div id="edu_content">
+            <h3>
+              <span class="clg">Bachelor of Engineering in Civil | 2024</span>
+              <br />Thanthai Periyar Government Institute of Technology,
+              Vellore<br />
+              <span class="score">SCORE= 77%</span>
+            </h3>
+
+            <h3>
+              <span class="clg">Diploma in Civil Engineering | 2021</span
+              ><br />Thanthai Periyar Government Polytechnic College, Vellore
+              <br /><span class="score">SCORE= 89%</span>
+            </h3>
+
+            <h3>
+              <span class="clg">ITI - Draughtsman Civil | 2019</span
+              ><br />Government Industrial Training Institute, Vellore<br />
+              <span class="score">SCORE= 74%</span>
+            </h3>
+
+            <h3>
+              <span class="clg">SSLC | 2016</span><br />Sri Vivekananda Matric
+              Higher Secondary School,Ambur<br />
+              <span class="score">SCORE= 68%</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <div id="skills" class="m">
+        <h1>SKILLS</h1>
+        <section id="sk">
+          <div id="skills_content">
+            <h4>
+              A good and versatile self learner, I've learnt and learning things
+              by my own
+            </h4>
+            <ul>
+              <h3>PROFESSIONAL SKILLS</h3>
+              <li>PYTHON</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>DOM</li>
+              <li>ANGULAR</li>
+            </ul>
+            <ul>
+              <h3>OTHER SKILLS</h3>
+              <li><span>AUTO CADD</span></li>
+              <li><span>REVIT</span></li>
+              <li><span>STAAD PRO</span></li>
+            </ul>
+            <ul>
+              <h3>AREA'S OF INTEREST</h3>
+              <li><span>WEB DEVELOPMET</span></li>
+              <li><span>SOFTWARE DEVELOPMENT</span></li>
+              <li><span>FULL STACK DEVELOPMET</span></li>
+            </ul>
+          </div>
+          <div id="skills_image">
+            <img src="img/third.png" />
+          </div>
+        </section>
+      </div>
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <div id="project" class="m">
+        <section>
+          <h2>ACHIEVEMENTS</h2>
+          <div id="ap">
+            <h1>PROJECTS</h1>
+            <ul>
+              <li>
+                Web Development: Designed a Single Page Web Page using HTML, CSS
+                & Javascript
+              </li>
+              <li>
+                A study on soil stabilization using pond ash and Bagasse ash.
+              </li>
+              <li>
+                Improving CBR value in sub grade soil using pond ash and bagasse
+                ash and analysis of road embankment using Plaxis 2D
+              </li>
+            </ul>
+
+            <h1>AWARDS</h1>
+            <ul>
+              <li>
+                Secured Second place in Inter College Competition on AutoCAD
+                conducted by Government Engineering College, Dharmapuri.
+              </li>
+              <li>
+                Secured Second place in AutoCAD conducted by Government
+                Engineering College, Salem.
+              </li>
+            </ul>
+
+            <h1>EXTRA CURRICULAR</h1>
+            <ul>
+              <li>
+                Co-ordinated and Conducted an Event for AutoCAD at Symposium
+                held at college, which proves my Management Skills.
+              </li>
+              <li>
+                Event Head for the Technical Symposium held at college premises
+                on Final year, which proves my Communication, Leadership and
+                Independency Skills.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <div id="about" class="m">
+        <h2>Yashvanth_B</h2>
+        <li>
+          <a class="gmail_link" href="mailto:yashvanth.babu05@gmail.com">yashvanth.babu05@gmail.com</a>
+        </li>
+        <li>
+          <a class="gmail_link" href="https://github.com/Yashvanth-B">Git Hub</a>
+        </li>
+        <h3>Yashvanth_B : All right reserved</h3>
+      </div>
+    </main>
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <aside id="hd">
+      <div id="hhh"><h1></h1></div>
+    </aside>
+  </body>
+</html>
