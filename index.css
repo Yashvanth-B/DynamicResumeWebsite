@@ -106,7 +106,7 @@ rgb(251, 119, 60)
     display:block;
     position: fixed;
     margin: 0px;
-    width: 100%;
+    width: 700px;
     height: 100px;
     background-color: rgb(85, 181, 139);
     z-index: 9;
@@ -117,6 +117,7 @@ rgb(251, 119, 60)
     padding: 0px;
     margin: 10px 0px 0px 20px;
     text-align: left;
+    
   }
   #namee a {
     display: inline-block;
@@ -126,38 +127,42 @@ rgb(251, 119, 60)
     padding: 0px;
     margin: 0px 0px 0px 20px;
     text-align: left;
+    
   }
   #list {
-    display: inline-block;
-    width: 100%;
+    width: 700px;
     position: fixed;
-    top: 55px;
+    top:70px;
+    left: 0px;
     text-decoration: none;
-    padding: 0px;
     margin: 0px;
+    padding: 0px 10px 0px 20px;
+    text-align: left;
   }
 
   #list li {
-    display: inline-block;
-    padding: 0px 0px;
-    margin: 0px 1%;
+    display: inline;
+    margin: 0px 25px;
 
-    top: 0px;
   }
 
   #list li a {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    top: 0px;
+    margin: 0px;
+    padding: 0px;
     background-color: transparent;
+    
   }
   #list li a:hover {
     text-decoration: none;
+    display: inline;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.222);
-    padding: 2px 3px;
-    border-radius: 25px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.207);
   }
   #darkmode {
     margin-right: 0px;
@@ -165,6 +170,7 @@ rgb(251, 119, 60)
     top: 20px;
     right: 20px;
     padding: 2px 3px;
+    
   }
   #theme {
     display: none;
@@ -375,63 +381,57 @@ rgb(251, 119, 60)
 #mainscreen {
   transform: translate(0px, 100px);
   display: inline-block;
-  width: 100%;
+  width: 100vb;
   height: 100%;
-  
   background-image: linear-gradient(to right,rgb(124, 219, 187), rgb(48, 113, 100));
 }
 .m {
   display: inline-block;
   position: relative;
   background-color: rgba(255, 255, 255, 0.211);
-  width: 85%;
-  height: 120%;
-  margin: 30px 50px;
+  width: 600px;
+  height: 750px;
+  margin: 10px 50px;
 }
 #home p {
-  margin:4%;
+  margin:10px 40px 10px 40px;
   background-color: rgba(255, 255, 255, 0.23);
   display: inline-block;
-  padding: 2%;
+  padding: 10px;
   color: white;
-  width: 60%;
+  width: 500px;
   line-height: 2.2;
   word-spacing: 3px;
 }
 #img1 {
   position:relative;
-  top: 0%;
-  left: 20%;
-  width: 60%;
+  top: 0px;
+  left: 170px;
+  width: 250px;
 }
 #edu {
-  height: 100%;
+  height: 700px;
   font-size: 10px;
   color: white;
   background-color: rgba(255, 255, 255, 0.263);
 }
 #edu_image {
-  position: relative;
-  display: none;
-  top: 0%;
-  left: 20%;
-  height: 50%;
-  width: 60%;
+display: none;
 
 }
 #edu_content {
   display: inline-block;
   position: relative;
-  width: 60%;
+  width: 500px;
   padding: 5px 10px;
   line-height: 3;
   font-size: 10px;
   margin: 10px 30px 30px 60px ;
 }
 #skills {
-  height: 100%;
+  height: 1200px;
   display: inline-block;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #skills h1 {
   text-align: center;
@@ -440,24 +440,26 @@ rgb(251, 119, 60)
 #skills_content {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 500px;
   line-height: 2;
   text-align: left;
-  padding: 3%;
-  margin:0%;
+  padding: 20px;
+  margin:0px;
 }
 #skills_image {
   display: inline-block;
   position: relative;
-  top: 0%;
-  left: 0%;
+  top: 0px;
+  left: 95px;
 }
 #sk {
   background-color: rgba(255, 255, 255, 0.273);
-  height: 100%;
+  height: 1100px;
+  margin: 30px;
 }
+
 #project {
-  height: 100%;
+  height: 850px;
   color: white;
   text-align: center;
 }
@@ -470,7 +472,7 @@ rgb(251, 119, 60)
 }
 #about {
   text-align: center;
-  height: 100%;
+  height: 200px;
 }
 #about h2 {
   color: white;
