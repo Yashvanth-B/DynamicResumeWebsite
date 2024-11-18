@@ -70,10 +70,11 @@ body {
 
 #redbg {
   background-image: linear-gradient(
-    to right,rgb(24, 1, 97),
-rgb(79, 23, 135),
-rgb(235, 54, 120),
-rgb(251, 119, 60)
+    to right,
+    rgb(24, 1, 97),
+    rgb(79, 23, 135),
+    rgb(235, 54, 120),
+    rgb(251, 119, 60)
   );
 }
 #bluebg {
@@ -103,7 +104,7 @@ rgb(251, 119, 60)
 /*-------------------------------------------------------------------------------nav bar----------------------------------------------------------*/
 @media (max-width: 500px) {
   #side {
-    display:block;
+    display: block;
     position: fixed;
     margin: 0px;
     width: 500px;
@@ -117,7 +118,6 @@ rgb(251, 119, 60)
     padding: 0px;
     margin: 10px 0px 0px 15px;
     text-align: left;
-    
   }
   #namee a {
     display: inline-block;
@@ -127,24 +127,21 @@ rgb(251, 119, 60)
     padding: 0px;
     margin: 0px 0px 0px 20px;
     text-align: left;
-    
   }
   #list {
     width: 500px;
     position: fixed;
-    top:70px;
+    top: 70px;
     left: 0px;
     text-decoration: none;
     margin: 0px;
     padding: 0px 0px 0px 0px;
     text-align: left;
-
   }
 
   #list li {
     display: inline;
     margin: 0px 10px 0px 12px;
-
   }
 
   #list li a {
@@ -154,7 +151,6 @@ rgb(251, 119, 60)
     margin: 0px;
     padding: 0px;
     background-color: transparent;
-    
   }
   #list li a:hover {
     text-decoration: none;
@@ -170,7 +166,6 @@ rgb(251, 119, 60)
     top: 20px;
     right: 20px;
     padding: 2px 3px;
-    
   }
   #theme {
     display: none;
@@ -183,7 +178,11 @@ rgb(251, 119, 60)
   display: inline-block;
   width: 80%;
   height: 100%;
-  background-image: linear-gradient(to right,rgb(124, 219, 187), rgb(48, 113, 100));
+  background-image: linear-gradient(
+    to right,
+    rgb(124, 219, 187),
+    rgb(48, 113, 100)
+  );
 }
 .m {
   display: inline-block;
@@ -203,10 +202,10 @@ rgb(251, 119, 60)
   color: rgb(192, 68, 68);
 }
 #home p {
-  margin: 30px 50px;
+  margin: 5px 20px;
   background-color: rgba(255, 255, 255, 0.23);
   display: inline-block;
-  padding: 5px;
+  padding: 3px;
   color: white;
   width: 500px;
   line-height: 2.2;
@@ -262,7 +261,7 @@ rgb(251, 119, 60)
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 #skills {
-  height: 1000px;
+  height: 950px;
   display: inline-block;
   color: white;
 }
@@ -299,25 +298,60 @@ rgb(251, 119, 60)
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------*/
 #project {
-  height: 600px;
+  height: 100px;
   color: white;
   text-align: center;
 }
-#project h1 {
-  text-align: center;
-  color: rgb(49, 49, 49);
-  font-size: 18px;
+.ProjectHeader {
+  text-align: left;
+  color: rgb(15, 16, 19);
+  font-size: 30px;
 }
 #ap {
-  color: white;
+  color: rgb(14, 14, 14);
   line-height: 2;
   text-align: left;
   margin: 40px;
   background-color: rgba(255, 255, 255, 0.238);
   padding: 10px 20px;
 }
+
+.ProjectTitle {
+  color: #39087a;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ProjectTechStacks {
+  color: #555;
+  font-size: 1em;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.ProjectSummary {
+  font-size: 0.95em;
+  line-height: 1.6;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-left: 4px solid #8b3bf3;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.ProjectLink a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ProjectLink a:hover {
+  text-decoration: underline;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 #about {
+  margin-top: 50px;
   text-align: center;
   height: 200px;
 }
@@ -372,177 +406,125 @@ rgb(251, 119, 60)
   background-color: rgb(160, 196, 189);
 }
 /*-----------------------------------------------------------------------------------------------------------*/
-@media (max-width: 500px) 
-{
-#hd
-  {
+@media (max-width: 500px) {
+  #hd {
     display: none;
   }
-#mainscreen {
-  transform: translate(0px, 100px);
-  display: inline-block;
-  width: 500px;
-  height: 100%;
-  background-image: linear-gradient(to right,rgb(124, 219, 187), rgb(48, 113, 100));
-}
-.m {
-  display: inline-block;
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.211);
-  width: 390px;
-  height: 820px;
-  margin: 10px 50px;
-}
-#home p {
-  margin:10px 20px;
-  background-color: rgba(255, 255, 255, 0.23);
-  display: inline-block;
-  padding: 10px;
-  color: white;
-  width: 330px;
-  line-height: 2.2;
-  word-spacing: 3px;
-}
-#img1 {
-  position:relative;
-  top: 0px;
-  left: 70px;
-  width: 250px;
-}
-#edu {
-  height: 700px;
-  font-size: 10px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.263);
-}
-#edu_image {
-display: none;
+  #mainscreen {
+    transform: translate(0px, 100px);
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgb(124, 219, 187),
+      rgb(48, 113, 100)
+    );
+  }
+  .m {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.211);
+    width: 390px;
+    height: 820px;
+    margin: 10px 50px;
+  }
+  #home p {
+    margin: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.23);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    width: 330px;
+    line-height: 2.2;
+    word-spacing: 3px;
+  }
+  #img1 {
+    position: relative;
+    top: 0px;
+    left: 70px;
+    width: 250px;
+  }
+  #edu {
+    height: 700px;
+    font-size: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.263);
+  }
+  #edu_image {
+    display: none;
+  }
+  #edu_content {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    padding: 0px 5px;
+    line-height: 3;
+    font-size: 10px;
+    margin: 10px 20px;
+  }
+  #skills {
+    height: 850px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+  }
+  #skills h1 {
+    text-align: center;
+    color: white;
+  }
+  #skills_content {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    line-height: 2;
+    text-align: left;
+    padding: 20px;
+    margin: 0px;
+  }
+  #skills_image {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: none;
+  }
+  #sk {
+    background-color: rgba(255, 255, 255, 0.273);
+    height: 750px;
+    margin: 30px;
+  }
 
-}
-#edu_content {
-  display: inline-block;
-  position: relative;
-  width: 300px;
-  padding: 0px 5px;
-  line-height: 3;
-  font-size: 10px;
-  margin: 10px 20px ;
-}
-#skills {
-  height: 850px;
-  display: inline-block;
-  color: rgb(255, 255, 255);
-}
-#skills h1 {
-  text-align: center;
-  color: white;
-}
-#skills_content {
-  display: inline-block;
-  position: relative;
-  width: 300px;
-  line-height: 2;
-  text-align: left;
-  padding: 20px;
-  margin:0px;
-}
-#skills_image {
-  display: inline-block;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  display: none;
-
-}
-#sk {
-  background-color: rgba(255, 255, 255, 0.273);
-  height: 750px;
-  margin: 30px;
-}
-
-#project {
-  height: 1200px;
-  color: white;
-  text-align: center;
-}
-#ap {
-  color: white;
-  line-height: 2;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.238);
-  padding: 10px 20px;
-}
-#about {
-  text-align: center;
-  height: 200px;
-}
-#about h2 {
-  color: white;
-  margin-top: 30px;
-}
-#about li {
-  margin-top: 20px;
-  list-style-type: none;
-}
-#about a {
-  text-decoration: none;
-  color: aliceblue;
-}
-#about h3 {
-  color: white;
-  font-size: 10px;
-  margin-top: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #project {
+    height: 1200px;
+    color: white;
+    text-align: center;
+  }
+  #ap {
+    color: white;
+    line-height: 2;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.238);
+    padding: 10px 20px;
+  }
+  #about {
+    text-align: center;
+    height: 200px;
+  }
+  #about h2 {
+    color: white;
+    margin-top: 30px;
+  }
+  #about li {
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  #about a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  #about h3 {
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+  }
 }
